@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+    <div class="introducao">
+      <p>Seja bem-vinda ao Diário de Anne Lister!</p> 
+      <p>Anne Lister foi uma proprietária de terras, alpinista e viajante britânica, nascida no século XVIII, conhecida por seu diário codificado.</p>
+      <p>O seu diário é um dos primeiros registros que temos sobre lesbianidade - em uma época que sequer havia nome para isso. Ela escrevia através de códigos as questões referidas à sua sexualidade.</p>
+      <p>Para compreender a luta e a história dessa mulher fantástica, que tal decifrar algumas mensagens do diário?</p>
+      <p id="lembrar">Lembre-se de usar apenas letras maiúsculas.</p>
+      
     </div>
+
+    <div class="posicao">
+      <p id="msg1">Palavra a ser cifrada</p>
+      <input id="palavra-cifrada" type="text">
+      <p>Escolha o deslocamento:</p>
+      <input id="offset1" type="text" name="deslocamento" placeholder="Digite um número">
+      <br>
+      <br>
+      <div id="mostrar-mensagem"></div>
+      <br>
+      <button id="cifragem">Cifrar Palavra</button>
+
+      <p id="msg2">Palavra a ser decifrada</p>
+      <input id="palavra-decifrada" type="text">
+      <br>
+      <p>Escolha o deslocamento:</p>
+      <input id="offset2" type="text" name="deslocamento" placeholder="Digite um número">
+      <br>
+      <br>
+      <div id="mostrar-mensagem2"></div>
+      <br>
+      <button id="decifragem">Decifrar Palavra</button>
+    </div>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

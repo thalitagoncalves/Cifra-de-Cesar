@@ -1,0 +1,30 @@
+body {
+    background-image: url(lister1.jpg);
+    background-size: 150%;
+    margin: 0%;
+}
+
+.introducao {
+    background-color: white;
+    border: double 15px lightslategray;
+    text-align: center;
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+}
+
+.posicao {
+    background-color: white;
+    border: double 15px lightslategray;
+    text-align: center;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#lembrar {
+    font-style: italic;
+}
+
+
