@@ -23,7 +23,7 @@ const cipher = {
     if ((offset !== 0 && offset !== null) && (palavra !== "" && palavra !== 0)) {
       for(var x = 0; x < palavra.length; x++) {
         let transf = palavra.toUpperCase().charCodeAt(x);
-        let novaLetra = String.fromCharCode(((transf + 65 - deslocamento) % 26) + 65  );
+        let novaLetra = String.fromCharCode(((transf - 90 - deslocamento) % 26) + 90  );
         if(palavra[x] !== palavra[x].toUpperCase()){
          novaLetra = novaLetra.toLowerCase();
       }
