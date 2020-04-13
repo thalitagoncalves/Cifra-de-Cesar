@@ -10,7 +10,7 @@ Por meio de uma interface simples e prática com as cores e estética similares 
 
 ## 2. Objetivo
 
-Criação de novas palavras - através da codificação, para se comunicar ou fazer seus próprios registros. Ou decodificação de palavras para ler mensagens que por meio desse produto, estava codificadas.
+Criação de novas palavras - através da codificação, para se comunicar ou fazer seus próprios registros. Ou decodificação de palavras para ler mensagens que por meio desse produto, estavam codificadas.
 
 ## 3. Solução do Produto
 
