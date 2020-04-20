@@ -25,6 +25,29 @@ body {
 .secao {
     display: flex;
     align-items: center;
-    padding: 1em;
     flex-direction: column;
+
+}
+
+div {
+    background-color: lightslategrey;
+    height: 20px;
+    width: 250px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 9px;
+    opacity: 0.8;;
+}
+
+.cifra, .decifra {
+    padding: 1em;
+}  
+
+button {
+    background-color: lightslategray;
+    border-radius: 15px;
+    width: fit-content;
+    height: 25px;
+    margin-top: 10px;
 }
