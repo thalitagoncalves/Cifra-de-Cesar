@@ -4,21 +4,27 @@ body {
     margin: 0%;
 }
 
-.introducao {
+.box {
     background-color: white;
     border: double 15px lightslategray;
     text-align: center;
     width: fit-content;
+}
+
+.introducao {
     padding: 5px;
     margin: auto;
 }
 
 .posicao {
-    background-color: white;
-    border: double 15px lightslategray;
-    text-align: center;
-    width: fit-content;
     padding: 30px;
     margin: auto;
     margin-top: 10px;
+}
+
+.secao {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    flex-direction: column;
 }

@@ -9,38 +9,32 @@
 
   <body>
 
-    <div class="introducao">
-      <p>Seja bem-vinda ao Diário de Anne Lister!</p> 
+    <header class="introducao box">
+      <p>Seja bem-vinda ao Diário de Anne Lister!</p>
       <p>Anne Lister foi uma proprietária de terras, alpinista e viajante britânica, nascida no século XVIII, conhecida por seu diário codificado.</p>
       <p>O seu diário é um dos primeiros registros que temos sobre lesbianidade - em uma época que sequer havia nome para isso. Ela escrevia através de códigos as questões referidas à sua sexualidade.</p>
-      <p>Como Anne, aqui você também pode codificar e decodificar mensagens.  </p>
-      
-    </div>
+      <p>Como Anne, aqui você também pode codificar e decodificar mensagens.</p> 
+    </header>
 
-    <div class="posicao">
-      <p id="msg1">Digite a palavra a ser cifrada:</p>
-      <input id="palavra-cifrada" type="text">
-      <p>Escolha o deslocamento:</p>
-      <input id="offset1" type="text" name="deslocamento" placeholder="Digite um número">
-      <br>
-      <br>
-      <button id="cifragem">Cifrar Palavra</button>
-      <br>
-      <br>
-      <div id="mostrar-mensagem"></div>
+    <main class="posicao box">
+      <section class="secao cifragem">
+        <label for="palavra-cifrada">Digite a palavra a ser cifrada:</label>
+        <input id="palavra-cifrada" type="text">
+        <label for="offset-cifragem">Escolha o deslocamento:</label>
+        <input id="offset-cifragem" type="number" name="deslocamento" placeholder="Digite um número">
+        <button id="cifragem">Cifrar Palavra</button>
+        <div id="mostrar-cifragem"></div>
+      </section>
 
-      <p id="msg2">Digite a palavra a ser decifrada:</p>
+     <section class="secao decifragem">
+      <label for="palavra-decifrada">Digite a palavra a ser decifrada:</label>
       <input id="palavra-decifrada" type="text">
-      <br>
-      <p>Escolha o deslocamento:</p>
-      <input id="offset2" type="text" name="deslocamento" placeholder="Digite um número">
-      <br>
-      <br>
+      <label for="offset-decifragem">Escolha o deslocamento:</label>
+      <input id="offset-decifragem" type="text" name="deslocamento" placeholder="Digite um número">
       <button id="decifragem">Decifrar Palavra</button>
-      <br>
-      <br>
-      <div id="mostrar-mensagem2"></div>
-    </div>
+      <div id="mostrar-decifragem"></div>
+     </section>
+    </main>
 
     <script src="index.js" type="module"></script>
   </body>
