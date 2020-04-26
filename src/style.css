@@ -37,7 +37,7 @@ div {
     margin: auto;
     margin-top: 10px;
     border-radius: 9px;
-    opacity: 0.8;;
+    opacity: 0.9;;
 }
 
 .cifra, .decifra {
@@ -50,4 +50,8 @@ button {
     width: fit-content;
     height: 25px;
     margin-top: 10px;
+}
+
+button:hover {
+    background-color: lightsteelblue;
 }
